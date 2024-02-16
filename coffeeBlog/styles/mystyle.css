@@ -1,0 +1,115 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+h2{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-read-more{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin: 10px 0;
+}
+.btn-more-inf{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'arial';
+    letter-spacing: 2px;
+    background-color: brown;
+    color: white;
+    padding: 5%;
+    margin: 10% 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.flex-main-container{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+/*header*/
+.site-header{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-size: cover;    
+}
+.site-header{
+    color: white;
+    text-align: center;
+}
+.main-title{
+    color: white;
+    text-align: center;
+    size: 35px;
+}
+/*main*/
+/*navigation*/
+.navigation{
+    text-align: center;
+    margin: 10px 0;
+}
+.navigation a{
+    color:white;
+    margin-right: 20px 0;
+}
+
+.title{
+    margin: 20px 0;
+}
+/*article*/
+.articles{
+    width: 70%;
+    margin-right: 10px;
+}
+.article-container{
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 20px;
+} 
+.course-container{
+    width: 30%;
+}
+.course-item{
+border-bottom: none;
+}
+
+/*footer*/
+.footer-container{
+    background-color: black;
+    height: 120px;
+}
